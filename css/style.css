@@ -53,7 +53,7 @@
 	width: 292px;
 	height: 2px;
 	background: #fff;
-
+	vertical-align: middle
 }
 
 
@@ -122,17 +122,7 @@
 .content{
 	height: 604px;
 	background-color: #efefef;
-}
-
-.content .content_title {
-	padding-top: 85px;
-	height: 26px;
-	color: #252525;
-	font-family: Roboto;
-	font-size: 30px;
-	font-weight: 400;
-	text-transform: uppercase;
-	text-align: center;
+	padding: 85px 0 75px;
 }
 
 .content hr{
@@ -141,6 +131,47 @@
 	background-color: #f9bf3b;
 	margin: 18px auto 0px;
 }
+
+.expect .expect_title{
+	color: #252525;
+	font-family: Roboto;
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.expect .expect_subtitle{
+	color: #4a4a4a;
+	font-family: Roboto;
+	font-size: 23px;
+	font-weight: 400;
+	margin-top: 17px;
+	text-align: center;
+}
+
+.expect .expect_wrapper{
+	display: flex;
+	margin-top: 45px;
+	justify-content: center;
+	
+}
+
+.expect .expect_wrapper .expect_item{
+	width: 339px;
+	text-align: center;
+	margin-left: 48px;
+}
+
+.expect .expect_wrapper .expect_item .expect_descr{
+	margin-top: 33px;
+	color: #4a4a4a;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 21px;
+}
+	
 
 
 
